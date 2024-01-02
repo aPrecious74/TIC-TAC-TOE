@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 234, 0); /*(229, 248, 123); for avocado color */
+    /*border:yellow 5px solid;*/
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+button {
+    font-size: 42px;
+    padding: 38px;
+    margin: 10px;
+    border-style: none;
+    background-color: rgb(235, 131, 131);
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; /*divides the grid evenly. changes size of the grid horizontaly*/
+    grid-template-rows:1fr 1fr 1fr;  /*changes size of the grid horizontaly */
+    
+}
